@@ -1,0 +1,59 @@
+$prefixCls: 'page-sdk-management';
+
+.#{$prefixCls} {
+  padding: 20px;
+  background-color: white;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+
+    &-title {
+      font-weight: bold;
+    }
+
+    &-right {
+      width: 470px;
+      display: flex;
+
+      .icon-search {
+        font-size: 22px;
+        color: #b1aeae;
+      }
+
+      .search-icon {
+        font-size: 22px;
+      }
+
+      .ant-btn-primary {
+        display: flex;
+        margin-left: 8px;
+        background-color: $btn-primary-color;
+      }
+    }
+  }
+
+  .cell-tag {
+    padding: 0 6px;
+    margin-left: 10px;
+    background-color: #efefef;
+  }
+
+  .text-active {
+    color: red;
+  }
+
+  .sdk-link {
+    color: $blue-color;
+    cursor: pointer;
+  }
+
+  .action-icon {
+    font-size: 20px;
+    cursor: pointer;
+  }
+
+  .info-icon {
+    font-size: 22px;
+  }
+}
